@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Brand Identity — Royal Protocol */
+body {
+  @apply bg-royalblue text-royalgold font-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-title text-royalgold tracking-wide;
+}
+
+a {
+  @apply text-royalgold hover:text-royalred transition-colors duration-300;
+}
