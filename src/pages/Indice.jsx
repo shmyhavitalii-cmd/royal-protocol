@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Indice() {
@@ -20,12 +21,12 @@ export default function Indice() {
           <p className="mb-3">
             Evoluzione storica della nobiltà nella Penisola Italiana.
           </p>
-          <a
-            href="https://royal-protocol.se-ih.org/storia"
-            className="text-royalred hover:underline font-semibold"
+          <Link
+            to="/storia"
+            className="text-royalred hover:text-royalgold hover:underline font-semibold transition"
           >
             Vai alla sezione →
-          </a>
+          </Link>
         </section>
 
         {/* Section: Leggi */}
@@ -39,16 +40,14 @@ export default function Indice() {
             giuridiche ad esse riferite. Gli ordini cavallereschi autorizzati
             nella Repubblica Italiana in accordo alla legge 3 marzo 1951 n. 178,
             e gli ordini cavallereschi inseriti nell’International Commission for
-            Orders of Chivalry. Tutte le norme giuridiche sono interpretate alla
-            luce del diritto vigente nella Repubblica Italiana e alle
-            disposizioni dei Paesi dell’Unione Europea.
+            Orders of Chivalry.
           </p>
-          <a
-            href="https://royal-protocol.se-ih.org/leggi"
-            className="text-royalred hover:underline font-semibold"
+          <Link
+            to="/leggi"
+            className="text-royalred hover:text-royalgold hover:underline font-semibold transition"
           >
             Vai alla sezione →
-          </a>
+          </Link>
         </section>
 
         {/* Section: Araldica */}
@@ -57,15 +56,14 @@ export default function Indice() {
           <p className="mb-3">
             L’araldica è lo studio dei blasoni, cioè degli stemmi, detti anche
             armi o scudi. È la disciplina che individua, descrive e cataloga i
-            simboli grafici utilizzati per identificare persone, famiglie o
-            enti.
+            simboli grafici utilizzati per identificare persone, famiglie o enti.
           </p>
-          <a
-            href="https://royal-protocol.se-ih.org/araldica"
-            className="text-royalred hover:underline font-semibold"
+          <Link
+            to="/araldica"
+            className="text-royalred hover:text-royalgold hover:underline font-semibold transition"
           >
             Vai alla sezione →
-          </a>
+          </Link>
         </section>
 
         {/* Section: Nobiltà */}
@@ -76,12 +74,12 @@ export default function Indice() {
             d’Italia, e l’attualizzazione in accordo alle leggi dei Paesi
             dell’Unione Europea.
           </p>
-          <a
-            href="https://royal-protocol.se-ih.org/nobilta"
-            className="text-royalred hover:underline font-semibold"
+          <Link
+            to="/nobilta"
+            className="text-royalred hover:text-royalgold hover:underline font-semibold transition"
           >
             Vai alla sezione →
-          </a>
+          </Link>
         </section>
 
         {/* Section: Esteri */}
@@ -94,12 +92,12 @@ export default function Indice() {
             alle leggi dei Paesi dell’Unione Europea si provvede alla loro
             attualizzazione.
           </p>
-          <a
-            href="https://royal-protocol.se-ih.org/esteri"
-            className="text-royalred hover:underline font-semibold"
+          <Link
+            to="/esteri"
+            className="text-royalred hover:text-royalgold hover:underline font-semibold transition"
           >
             Vai alla sezione →
-          </a>
+          </Link>
         </section>
 
         {/* Section: Genealogia */}
@@ -110,12 +108,12 @@ export default function Indice() {
             famiglie storiche, famiglie e discendenti di italiani che hanno
             riassunto la cittadinanza italiana.
           </p>
-          <a
-            href="https://royal-protocol.se-ih.org/genealogia"
-            className="text-royalred hover:underline font-semibold"
+          <Link
+            to="/genealogia"
+            className="text-royalred hover:text-royalgold hover:underline font-semibold transition"
           >
             Vai alla sezione →
-          </a>
+          </Link>
         </section>
 
         {/* Section: Ordini Cavallereschi */}
@@ -125,12 +123,12 @@ export default function Indice() {
             Repertorio degli ordini cavallereschi, la loro storia, i simboli e i
             criteri di registrazione ed appartenenza.
           </p>
-          <a
-            href="https://royal-protocol.se-ih.org/ordini-cavallereschi"
-            className="text-royalred hover:underline font-semibold"
+          <Link
+            to="/ordini-cavallereschi"
+            className="text-royalred hover:text-royalgold hover:underline font-semibold transition"
           >
             Vai alla sezione →
-          </a>
+          </Link>
         </section>
       </div>
     </div>
